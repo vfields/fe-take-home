@@ -5,11 +5,11 @@ function ArticleCard({ article }) {
   const imgUrl = article.multimedia[0].url;
 
   return (
-    <article>
+    <article className="article-card">
       <h3>{title}</h3>
       <img src={imgUrl} />
       <h4>{byline}</h4>
-      <p><a href={url}>Read this article</a></p>
+      <p>Learn more | <a href={url}>Read this article</a></p>
     </article>
   );
 }

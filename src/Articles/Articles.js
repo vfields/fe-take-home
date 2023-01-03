@@ -13,8 +13,7 @@ function Articles({ articles }) {
   })
 
   return (
-    <section>
-      I am Articles
+    <section className="articles">
       {articleDisplay}
     </section>
   );
