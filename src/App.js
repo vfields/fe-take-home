@@ -26,6 +26,7 @@ function App() {
         setUserSearch={setUserSearch} 
       />
       <Articles
+        userSearch={userSearch}
         articles={articles}
       />
     </main>
