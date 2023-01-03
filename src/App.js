@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import Articles from './Articles/Articles.js'
+import Articles from './Articles/Articles.js';
+import Search from './Search/Search.js';
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
   return (
     <main>
       <h1>NY Times News Reader</h1>
+      <Search />
       <Articles
         articles={articles}
       />

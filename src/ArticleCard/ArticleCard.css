@@ -1,6 +1,6 @@
 .article-card {
   align-items: center;
-  border: .25rem solid black;
+  border: .15rem solid black;
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
