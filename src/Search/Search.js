@@ -1,9 +1,6 @@
-import { useState } from 'react';
 import './Search.css';
 
-function Search() {
-  const [userSearch, setUserSearch] = useState('');
-
+function Search({ userSearch, setUserSearch }) {
   return (
     <input
       type="text" 

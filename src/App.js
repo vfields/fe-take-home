@@ -5,6 +5,7 @@ import './App.css';
 
 function App() {
   const [articles, setArticles] = useState([]);
+  const [userSearch, setUserSearch] = useState('');
 
   useEffect(() => {
     fetch('https://api.nytimes.com/svc/topstories/v2/home.json?api-key=ybisF2CGGDEAJBCUhCzPdJMIdJoBGGDo')
@@ -20,7 +21,10 @@ function App() {
   return (
     <main>
       <h1>NY Times News Reader</h1>
-      <Search />
+      <Search
+        userSearch={userSearch}
+        setUserSearch={setUserSearch} 
+      />
       <Articles
         articles={articles}
       />
