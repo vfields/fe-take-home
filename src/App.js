@@ -44,6 +44,8 @@ function App() {
         </Route>
         <Route exact path="/details/:id" render={({ match })=> {
           const articleToRender = articles.find(article => article.id === match.params.id)
+          console.log('why are you undefined: ', articleToRender);
+          // some bug here where article to render is undefined
           return <ArticleDetails
                     article={articleToRender}
                  />
