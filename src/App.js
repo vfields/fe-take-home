@@ -56,6 +56,8 @@ function App() {
           const articleToRender = articles.find(article => article.id === match.params.id)
           return <ArticleDetails
                     article={articleToRender}
+                    loading={loading}
+                    error={error}
                  />
           }
          } 
