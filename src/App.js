@@ -6,6 +6,8 @@ import ArticleDetails from './components/ArticleDetails/ArticleDetails.js';
 import BadUrl from './components/BadUrl/BadUrl.js'
 import './App.css';
 
+console.log('did we get the key? ', process.env.REACT_APP_NYTIMES_API_KEY);
+
 function App() {
   const [articles, setArticles] = useState([]);
   const [loading, setLoading] = useState('');
