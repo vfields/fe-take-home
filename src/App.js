@@ -4,9 +4,8 @@ import Search from './components/Search/Search.js'
 import Articles from './components/Articles/Articles.js';
 import ArticleDetails from './components/ArticleDetails/ArticleDetails.js';
 import BadUrl from './components/BadUrl/BadUrl.js'
+import { getArticles } from './apiCalls.js';
 import './App.css';
-
-console.log('did we get the key? ', process.env.REACT_APP_NYTIMES_API_KEY);
 
 function App() {
   const [articles, setArticles] = useState([]);
@@ -16,13 +15,14 @@ function App() {
 
   useEffect(() => {
     setLoading('Loading...')
-    fetch('https://api.nytimes.com/svc/topstories/v2/home.json?api-key=ybisF2CGGDEAJBCUhCzPdJMIdJoBGGDo')
-      .then(response => {
-        if (!response.ok) {
-          throw new Error(`${response.status}`);
-        }
-        return response.json();
-      })
+    // fetch('https://api.nytimes.com/svc/topstories/v2/home.json?api-key=ybisF2CGGDEAJBCUhCzPdJMIdJoBGGDo')
+    //   .then(response => {
+    //     if (!response.ok) {
+    //       throw new Error(`${response.status}`);
+    //     }
+    //     return response.json();
+    //   })
+    getArticles()
       .then(data => {
         const newData = data.results.reduce((acc, result) => {
           const id = result.short_url.split('/')[3]
