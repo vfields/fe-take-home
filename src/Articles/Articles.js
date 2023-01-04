@@ -6,10 +6,10 @@ function Articles({ userSearch, articles }) {
 
   const mapArticles = (articleList) => {
     return articleList.map(article => {
-      const uniqueKey = `${article.title}_${article.published_date}`
       return (
         <ArticleCard
-          key={uniqueKey}
+          key={article.short_url}
+          id={article.short_url}
           article={article}
         />
       )
