@@ -8,8 +8,7 @@ function Articles({ userSearch, articles }) {
     return articleList.map(article => {
       return (
         <ArticleCard
-          key={article.short_url}
-          id={article.short_url}
+          key={article.id}
           article={article}
         />
       )
