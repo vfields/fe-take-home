@@ -14,14 +14,7 @@ function App() {
   const [userSearch, setUserSearch] = useState('');
 
   useEffect(() => {
-    setLoading('Loading...')
-    // fetch('https://api.nytimes.com/svc/topstories/v2/home.json?api-key=ybisF2CGGDEAJBCUhCzPdJMIdJoBGGDo')
-    //   .then(response => {
-    //     if (!response.ok) {
-    //       throw new Error(`${response.status}`);
-    //     }
-    //     return response.json();
-    //   })
+    setLoading('Loading...');
     getArticles()
       .then(data => {
         const newData = data.results.reduce((acc, result) => {
