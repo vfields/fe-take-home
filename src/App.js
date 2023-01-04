@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Search from './Search/Search.js';
-import Articles from './Articles/Articles.js';
-import ArticleDetails from './ArticleDetails/ArticleDetails.js'
+import Search from './components/Search/Search.js'
+import Articles from './components/Articles/Articles.js';
+import ArticleDetails from './components/ArticleDetails/ArticleDetails.js';
+import BadUrl from './components/BadUrl/BadUrl.js'
 import './App.css';
 
 function App() {
@@ -62,6 +63,7 @@ function App() {
           }
          } 
         />
+        <Route component={BadUrl} />
       </Switch>
     </main>
   );
