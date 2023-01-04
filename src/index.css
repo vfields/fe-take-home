@@ -28,3 +28,13 @@ a:visited:hover {
 h1 {
   text-align: center;
 }
+
+input::placeholder,
+input[type="text"] {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+input[type="text"] {
+  color: black;
+}
