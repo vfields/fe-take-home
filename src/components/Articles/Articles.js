@@ -27,8 +27,14 @@ function Articles({ userSearch, articles }) {
     articleDisplay = mapArticles(searchResults);
   }
 
+  let noArticles;
+  if (articles.length && !articleDisplay.length) {
+    noArticles = <h2>No articles match your search!</h2>
+  }
+
   return (
     <section className="articles">
+      {noArticles}
       {articleDisplay}
     </section>
   );
