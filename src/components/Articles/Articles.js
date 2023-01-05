@@ -20,7 +20,7 @@ function Articles({ userSearch, articles }) {
   } else {
     const searchResults = articles.reduce((acc, article) => {
       if (article.title.toLowerCase().includes(userSearch.toLowerCase()) || article.byline.toLowerCase().includes(userSearch.toLowerCase())) {
-        acc.push(article)
+        acc.push(article);
       }
       return acc;
     }, [])
