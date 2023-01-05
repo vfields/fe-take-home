@@ -35,14 +35,20 @@
 This project recreates a take home challenge experience for front end developers and was completed in less than 6 hours.
 <br>
 
-<h3 align="center">Showcasing a part of the project:</h3>
-<p align="center"><img width="500" src="" alt=""></p>
+<h3 align="center">Wireframe:</h3>
+<p align="center"><img width="500" src="https://user-images.githubusercontent.com/103962335/210887121-22e9c102-e6a0-4a5f-abe4-1d92586ce1e6.png" alt="A wireframe of the NY Times Reader"></p>
 
-<h3 align="center">Showcasing another part of the project:</h3>
-<p align="center"><img width="500" src="" alt=""></p>
+<h3 align="center">React Component Architecture:</h3>
+<p align="center"><img width="500" src="https://user-images.githubusercontent.com/103962335/210887327-bea4cfdc-7a49-4d28-a48c-27f044c28e84.png" alt="A tree representing the NY Times Reader React component relationships"></p>
 
-<h3 align="center">Showcasing another part of the project:</h3>
-<p align="center"><img width="500" src="" alt=""></p>
+<h3 align="center">Detailed Article Display:</h3>
+<p align="center"><img width="500" src="https://media.giphy.com/media/WW9dG2e7eMMc59lyjD/giphy.gif" alt="A preview of a user clicking on more details for an article"></p>
+
+<h3 align="center">User Search:</h3>
+<p align="center"><img width="500" src="https://media.giphy.com/media/wwBepOvRueIaADnC7i/giphy.gif" alt="A preview of a user searching through articles by keyword and author"></p>
+
+<h3 align="center">Responsive Design:</h3>
+<p align="center"><img width="500" src="https://media.giphy.com/media/yeT97cMW1nv7VRGo4y/giphy.gif" alt="A preview of the applicaiton's responsive design"></p>
 
 ### Built With
 
