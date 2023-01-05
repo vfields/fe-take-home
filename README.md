@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <!-- HEADER -->
-<h1 align="center">FE Take Home Challenge: NY Times News Reader</h1>
+<h1 align="center">FE Take-Home Challenge: NY Times News Reader</h1>
 
 <h3 align="center">A news reader app that pulls articles from the NY Time's <a href="https://developer.nytimes.com/docs/top-stories-product/1/overview">Top Stories API</a>.</h3>
 
@@ -32,7 +32,7 @@
 </details>
 
 ## About The Project
-This project recreates a take home challenge experience for front end developers and was completed in less than 6 hours.
+This project recreates a take-home challenge experience for front end developers with an MVP that includes: consuming a RESTful API and displaying its results—NY Times articles—as a list to the end user, allowing the user to access a detailed view of each article, and implement user search logic of some sort. It was completed in less than 6 hours.
 <br>
 
 <h3 align="center">Wireframe:</h3>
@@ -49,6 +49,9 @@ This project recreates a take home challenge experience for front end developers
 
 <h3 align="center">Responsive Design:</h3>
 <p align="center"><img width="500" src="https://media.giphy.com/media/yeT97cMW1nv7VRGo4y/giphy.gif" alt="A preview of the applicaiton's responsive design"></p>
+<p>
+This project was assigned during the fourth module of Turing's Front-End Engineering progam, about 20-21 weeks into its students learning how to code. The details of this project are outlined in <a href="https://mod4.turing.edu/projects/take_home/take_home_fe">this</a> project spec.
+</p>
 
 ### Built With
 
