@@ -36,7 +36,7 @@ This project recreates a take-home challenge experience for front end developers
 <br>
 
 <h3 align="center">Wireframe:</h3>
-<p align="center"><img width="500" src="https://user-images.githubusercontent.com/103962335/210887121-22e9c102-e6a0-4a5f-abe4-1d92586ce1e6.png" alt="A wireframe of the NY Times Reader"></p>
+<p align="center"><img width="500" src="https://user-images.githubusercontent.com/103962335/210894046-4e6b345b-b648-46b1-a17e-b191c88d9ce1.png" alt="A wireframe of the NY Times Reader"></p>
 
 <h3 align="center">React Component Architecture:</h3>
 <p align="center"><img width="500" src="https://user-images.githubusercontent.com/103962335/210887327-bea4cfdc-7a49-4d28-a48c-27f044c28e84.png" alt="A tree representing the NY Times Reader React component relationships"></p>
