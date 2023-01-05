@@ -5,7 +5,7 @@
 
 <h3 align="center">A news reader app that pulls articles from the NY Time's <a href="https://developer.nytimes.com/docs/top-stories-product/1/overview">Top Stories API</a>.</h3>
 
-<h4 align="center"><a href="/"><strong>Deploy Link</strong></a> | <a href="https://github.com/vfields/fe-take-home"><strong>Explore The Docs »</strong></a></h4>
+<h4 align="center"><a href="https://fe-take-home.vercel.app/"><strong>Deploy Link</strong></a> | <a href="https://github.com/vfields/fe-take-home"><strong>Explore The Docs »</strong></a></h4>
 
 <p></p>
 
